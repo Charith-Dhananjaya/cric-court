@@ -3,8 +3,8 @@ var blr = document.querySelector("#cursor-blur")
 document.addEventListener("mousemove", function(dets) {
     crsr.style.left = dets.x + "px"
     crsr.style.top = dets.y + "px"
-    blr.style.left = dets.x - 150 + "px"
-    blr.style.top = dets.y - 150 + "px"
+    blr.style.left = dets.x - 240 + "px"
+    blr.style.top = dets.y - 240 + "px"
 })
 
 gsap.to("#nav", {

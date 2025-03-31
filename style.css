@@ -20,12 +20,12 @@ html,body {
 }
 
 #cursor-blur{
-    height: 300px;
-    width: 300px;
-    background-color: #96c11e3c;
+    height: 500px;
+    width: 500px;
+    background-color: #96c11e2b;
     border-radius: 50%;
     position: fixed;
-    filter: blur(30px);
+    filter: blur(40px);
     z-index: 9;
 }
 #nav{
@@ -111,7 +111,22 @@ video {
     width: 100%;
 }
 
+#scroller{
+    background-color: red;
+    white-space: nowrap;
 
+}
+#scroller-in-1{
+    display: inline-block;
+    white-space: nowrap;
+}
+#scroller-in-2{
+    display: inline-block;
+    white-space: nowrap;
+}
+#scroller h4{
+    display:inline-block
+}
 
 
 
